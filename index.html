@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <main class="mx-auto max-w-6xl p-6">
+    <div id="items" class="grid grid-cols-2 gap-4 pb-40"></div>
+  </main>
+
+  <footer class="fixed bottom-0 left-0 w-full bg-white border-t p-6 shadow-lg">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-6">
+        <span class="text-2xl font-bold">Celkem:</span>
+        <span id="total-price" class="text-4xl font-bold text-green-600">0 Kč</span>
+      </div>
+      <button id="clear-all" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-4 px-8 rounded text-xl transition duration-200">
+        Vymazat
+      </button>
+    </div>
+  </footer>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Pilsner Urquell 12°",
+    "price": 55,
+    "unit": "0,5l",
+    "in_stock": true,
+    "order": 1,
+    "color": "#fef3c7"
+  },
+  {
+    "id": 2,
+    "name": "Pilsner Urquell 12°",
+    "price": 35,
+    "unit": "0,3l",
+    "in_stock": true,
+    "order": 2,
+    "color": "#fef3c7"
+  },
+  {
+    "id": 3,
+    "name": "Bernard 11°",
+    "price": 45,
+    "unit": "0,5l",
+    "in_stock": true,
+    "order": 3,
+    "color": "#fef3c7"
+  },
+  {
+    "id": 4,
+    "name": "Bernard 11°",
+    "price": 30,
+    "unit": "0,3l",
+    "in_stock": true,
+    "order": 4,
+    "color": "#fef3c7"
+  },
+  {
+    "id": 5,
+    "name": "Kvasar 10°",
+    "price": 40,
+    "unit": "0,5l",
+    "in_stock": true,
+    "order": 5,
+    "color": "#fef3c7"
+  },
+  {
+    "id": 6,
+    "name": "Kvasar 10°",
+    "price": 30,
+    "unit": "0,3l",
+    "in_stock": true,
+    "order": 6,
+    "color": "#fef3c7"
+  },
+  {
+    "id": 7,
+    "name": "Radler",
+    "price": 30,
+    "unit": "0,5l",
+    "in_stock": true,
+    "order": 9,
+    "color": "#d1fae5"
+  },
+  {
+    "id": 8,
+    "name": "Kofola grep",
+    "price": 30,
+    "unit": "0,5l",
+    "in_stock": true,
+    "order": 7,
+    "color": "#e0f2fe"
+  },
+  {
+    "id": 9,
+    "name": "Kofola grep",
+    "price": 20,
+    "unit": "0,3l",
+    "in_stock": true,
+    "order": 8,
+    "color": "#e0f2fe"
+  },
+  {
+    "id": 10,
+    "name": "Voda",
+    "price": 30,
+    "unit": "0,2l",
+    "in_stock": true,
+    "order": 10,
+    "color": "#f1f5f9"
+  },
+  {
+    "id": 11,
+    "name": "Hosp. tycinky",
+    "price": 25,
+    "unit": "300g",
+    "in_stock": true,
+    "order": 11,
+    "color": "#f1f5f9"
+  },
+  {
+    "id": 12,
+    "name": "Sol. bramburky",
+    "price": 25,
+    "unit": "300g",
+    "in_stock": true,
+    "order": 12,
+    "color": "#f1f5f9"
+  }
+]
