@@ -1,0 +1,9 @@
+﻿/* Custom styles for Pokladna Stodola */
+
+body {
+    -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+    touch-action: manipulation;
+}
