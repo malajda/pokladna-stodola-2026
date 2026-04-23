@@ -18,11 +18,38 @@
         <span class="text-xl sm:text-2xl font-bold">Celkem:</span>
         <span id="total-price" class="text-2xl sm:text-4xl font-bold text-green-600">0 Kč</span>
       </div>
-      <button id="clear-all" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 sm:py-4 sm:px-8 rounded text-lg sm:text-xl transition duration-200">
-        Vymazat
-      </button>
+      <div class="flex items-center space-x-3 sm:space-x-4">
+        <button id="generate-recap" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 sm:py-4 sm:px-8 rounded text-lg sm:text-xl transition duration-200">
+          Rekapitulace
+        </button>
+        <button id="clear-all" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-2 px-4 sm:py-4 sm:px-8 rounded text-lg sm:text-xl transition duration-200">
+          Vymazat
+        </button>
+      </div>
     </div>
   </footer>
+
+  <!-- Modal -->
+  <div id="recap-modal" class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
+    <div class="relative top-20 mx-auto p-5 border w-11/12 max-w-md shadow-lg rounded-md bg-white">
+      <div class="mt-3 text-center">
+        <h3 class="text-2xl leading-6 font-bold text-gray-900">Rekapitulace</h3>
+        <div class="mt-4 px-2 py-3 text-left">
+          <div id="recap-content" class="text-lg text-gray-700 space-y-2">
+            <!-- Recap items will be injected here -->
+          </div>
+          <div id="recap-total" class="mt-6 border-t pt-4 text-xl font-bold text-green-600 text-right">
+            <!-- Total will be injected here -->
+          </div>
+        </div>
+        <div class="items-center px-4 py-3">
+          <button id="close-modal" class="px-4 py-3 bg-blue-500 text-white text-xl font-bold rounded-md w-full shadow-sm hover:bg-blue-600 focus:outline-none transition duration-200">
+            Zavřít a vymazat
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="jquery.min.js"></script>
   <script src="app.js"></script>
